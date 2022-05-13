@@ -118,7 +118,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>E:\AIDeploy\Env\0_Boost\boost_1_70_0;E:\AIDeploy\Env\0_eigen\eigen-3.4.0;E:\AIDeploy\Env\0_OpenCV\opencv\include;E:\AIDeploy\Env\0_Python38\include;E:\AIDeploy\Env\0_Python38\Lib\site-packages\numpy\core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\AIDeploy\Env\0_Boost\boost_1_70_0;E:\AIDeploy\Env\0_eigen\eigen-3.4.0;E:\AIDeploy\Env\0_OpenCV\opencv\include;E:\AIDeploy\Env\0_OpenCV\opencv\include\opencv2\highgui;E:\AIDeploy\Env\0_OpenCV\opencv\include\opencv2;E:\AIDeploy\Env\0_Python38\include;E:\AIDeploy\Env\0_Python38\Lib\site-packages\numpy\core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -134,10 +134,17 @@
     <ClCompile Include="callPython_numpy_demo.cpp" />
     <ClCompile Include="eigen_demo.cpp" />
     <ClCompile Include="numpyCPP_demo.cpp" />
-    <ClCompile Include="opencv_51_01_入门案例.cpp" />
-    <ClCompile Include="opencv_51_02_加载修改保存.cpp" />
-    <ClCompile Include="opencv_51_03_矩阵掩膜操作.cpp" />
+    <ClCompile Include="opencv_51_00_入门案例.cpp" />
+    <ClCompile Include="opencv_51_01_加载修改保存.cpp" />
+    <ClCompile Include="opencv_51_02_矩阵掩膜操作.cpp" />
+    <ClCompile Include="opencv_51_03_Mat对象.cpp" />
+    <ClCompile Include="opencv_51_04_图像操作.cpp" />
+    <ClCompile Include="opencv_51_04_图像操作像素.cpp" />
+    <ClCompile Include="opencv_51_05_图像混合.cpp" />
+    <ClCompile Include="opencv_51_06_调整图像亮度与对比度.cpp" />
+    <ClCompile Include="opencv_51_07_绘制形状和文字.cpp" />
     <ClCompile Include="opencv_demo.cpp" />
+    <ClCompile Include="opencv_51_02_Filter使用.cpp" />
     <ClCompile Include="pickle_test.cpp" />
   </ItemGroup>
   <ItemGroup>
